@@ -1,0 +1,34 @@
+
+body {
+    background-color: #f8fafc;
+    font-family: Arial, sans-serif;
+}
+
+.hero {
+    background: linear-gradient(135deg, #075985, #2563eb);
+}
+
+.destination-img {
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+}
+
+.card {
+    border: none;
+    border-radius: 14px;
+    overflow: hidden;
+    transition: transform 0.25s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card .btn {
+    border-radius: 8px;
+}
+
+footer {
+    margin-top: 20px;
+}
